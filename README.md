@@ -14,6 +14,19 @@ dependencies {
 }
 ```
 
+## Usage
+
+A minimal example using the `String.kansi` extension:
+
+```kotlin
+import net.exoad.kansi.*
+
+fun main() {
+    // prints "Hello, Kansi!" in green and bold (if your terminal supports ANSI)
+    println("<fg:green bold>Hello, Kansi!</fg:green bold>".kansi)
+}
+```
+
 ## Specifications
 
 ### String Templating
@@ -105,3 +118,9 @@ Hello World!
 ```
 
 is translated to printing a blue foreground and bolded `"Hello World!"`
+
+### Definitions
+
+You can view the full ANSI definition table and helper functions here:
+
+[ANSIDefinitions.kt](src/main/kotlin/net.exoad.kansi/ANSIDefinitions.kt)
