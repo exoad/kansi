@@ -1,6 +1,18 @@
 # Kansi
 
-Colorize your console strings!
+A simple console text styling library for Kotlin.
+
+## Installing
+
+```kotlin
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("net.exoad:kansi:1.0")
+}
+```
 
 ## Specifications
 
